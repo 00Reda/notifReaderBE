@@ -14,5 +14,4 @@ public class OAuth2Configuration extends WebSecurityConfigurerAdapter {
 		http.antMatcher("/**").authorizeRequests().antMatchers("/user", "/login**", "/webjars/**", "/error**")
 				.permitAll().anyRequest().authenticated();
 	}
-
 }
