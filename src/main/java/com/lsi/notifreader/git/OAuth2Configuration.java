@@ -1,4 +1,4 @@
-package com.lsi.notifreader.facebook;
+package com.lsi.notifreader.git;
 
 import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth2Sso;
 import org.springframework.context.annotation.Configuration;
